@@ -45,6 +45,41 @@ nav a {
   letter-spacing: 3.2px;
 }
 
+/* -----    Main  ----- */
+
+h3 {
+  font-family: "Lora", serif;
+  color: #143774;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+p {
+  color: #707070;
+}
+
+.title-date p {
+  font-size: 0.5em;
+}
+
+main p {
+  font-weight: light;
+  font-size: 1rem;
+}
+
+main span {
+  font-weight: bold;
+}
+
+.cr-link {
+  font-size: 0.8rem;
+  color: #1792d2;
+  text-decoration: none;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /* =================== */
 /*       Layout        */
 /* =================== */
@@ -85,11 +120,31 @@ main {
 
 main section {
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
 }
 
 main img {
   width: 100%;
+}
+
+.title-date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.title-date p {
+  margin-top: 2.5em;
+}
+
+main p {
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+.post-container {
+  border-bottom: 1px solid #707070;
+  margin-bottom: 2em;
 }
 
 /* =================== */
