@@ -142,9 +142,29 @@ main p {
   margin-bottom: 2em;
 }
 
-.post-container {
+.pc-1 {
   border-bottom: 1px solid #707070;
   margin-bottom: 2em;
+}
+
+.section-3-container {
+  border: 20px solid #ebebeb;
+}
+
+.section-3-container img {
+  width: 90%;
+  height: 133px;
+  object-fit: cover;
+  padding: 1em;
+  margin: 2em auto 0.5em;
+}
+
+.section-3-container p {
+  margin-top: 0;
+  font-size: 0.9rem;
+  color: #143774;
+  text-align: center;
+  font-weight: 300;
 }
 
 /* =================== */
