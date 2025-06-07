@@ -50,7 +50,7 @@ nav a {
 h3 {
   font-family: "Lora", serif;
   color: #143774;
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: 400;
 }
 
@@ -58,13 +58,14 @@ p {
   color: #707070;
 }
 
-.title-date p {
+.img-date p {
   font-size: 0.5em;
 }
 
 main p {
   font-weight: light;
   font-size: 1rem;
+  opacity: 0.8;
 }
 
 main span {
@@ -155,14 +156,21 @@ main img {
   width: 100%;
 }
 
-.title-date {
+.img-date {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   margin-top: 0;
 }
 
-.title-date p {
-  margin-top: 2.5em;
+.img-date p {
+  text-align: right;
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
+.post-container h3 {
+  margin-top: 0;
 }
 
 main p {
@@ -249,3 +257,30 @@ footer {
 /* =================== */
 /*       Media Query   */
 /* =================== */
+
+@media (min-width: 600px) {
+  header {
+    padding: 2em;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+  }
+
+  .nav-title {
+    margin-top: 1em;
+  }
+
+  ul {
+    display: flex;
+    justify-content: end;
+    margin-top: 3.5em;
+  }
+
+  li a {
+    font-size: 1rem;
+    padding: 1em;
+  }
+}
